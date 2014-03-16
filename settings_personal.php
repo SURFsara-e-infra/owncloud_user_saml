@@ -24,7 +24,7 @@ if ($_POST) {
 		if (\OC_User::setPassword($username, $password)) {
 			\OCP\JSON::success();
 		} else {
-			\OCP\JSON::error(array("data" => array("message" => $l->t("Error occured. Please try again.")) ));
+			\OCP\JSON::error(array("data" => array("message" => $l->t("Error occured. Though luck.")) ));
 		}
 	}
 	exit();
