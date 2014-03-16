@@ -23,14 +23,3 @@
 #samlSettings input[name="saml_default_group"] {
     width: 15em;
 }
-
-#cpasswordchanged {
-    font-weight: bold;
-    color: green;
-}
-
-#cpassworderror {
-    font-weight: bold;
-    color: red;
-}
-
